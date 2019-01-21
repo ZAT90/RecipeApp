@@ -1,0 +1,1 @@
+export const RECIPE_TYPE_FETCH = 'recipe_type_fetch';

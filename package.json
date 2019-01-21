@@ -1,0 +1,43 @@
+{
+  "name": "RecipeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.12.3",
+    "firebase": "4.9.1",
+    "react": "16.6.3",
+    "react-native": "0.57.8",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-gesture-handler": "^1.0.12",
+    "react-native-image-crop-picker": "^0.21.3",
+    "react-native-swipe-list-view": "^1.5.1",
+    "react-native-tags": "^2.0.0",
+    "react-native-vector-icons": "^6.1.0",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "rn-fetch-blob": "^0.10.15",
+    "self": "^1.0.0",
+    "yarn": "^1.13.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.51.1",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
